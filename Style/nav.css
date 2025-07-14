@@ -1,0 +1,13 @@
+/* Nav Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.logo-font {
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
