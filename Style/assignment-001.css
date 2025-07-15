@@ -219,6 +219,49 @@ nav {
 
 /* Get in Touch */
 
+.touch {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.touch-h1 {
+    font-size: 96px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+label {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input, textarea {
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 1px solid #D6DDED;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    outline: none;
+    resize: vertical;
+    opacity: 50%;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 500px;
+}
 /* Footer Section */
 
 .footer {
