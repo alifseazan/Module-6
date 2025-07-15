@@ -1,0 +1,26 @@
+/* Banner Section Styles */
+
+.banner {
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 75vh;
+}
+
+.banner-content {
+    align-content: center;
+    margin: 0 10%;
+}
+
+.banner-heading {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+}
