@@ -93,8 +93,8 @@ nav {
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    margin-top: 96px;
+    margin-bottom: 96px;
     gap: 96px;
 }
 
@@ -115,7 +115,7 @@ nav {
 
 .action-img {
     max-height: 328px;
-    border-radius: 10%;
+    border-radius: 48px;
     border: none;
 }
 
@@ -168,15 +168,63 @@ nav {
 
 /* Newsletter Section */
 
+.newsletter {
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 24px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.news-h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.news-para {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px;
+    color: black;
+    opacity: 50%;
+}
+
+.news-button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.news-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 36px;
+    border-radius: 48px;
+    max-width: 840px;
+    border: none;
+}
+
+.news-img:hover {
+    opacity: 96%;
+    cursor: grab;
+}
+
 /* Get in Touch */
 
 /* Footer Section */
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    background-color: white;
 }
 
 .footer-logo-font {
@@ -185,6 +233,7 @@ footer {
     color: #4E47FF;
     text-align: center;
     margin: auto;
+    margin-top: 60px;
 }
 
 .footer-para {
@@ -201,8 +250,9 @@ footer {
     margin: auto 30%;
 }
 
-div ul li {
+section ul li {
     list-style: none;
+    margin-bottom: 60px;
 }
 
 .footer-link {
